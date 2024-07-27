@@ -10,24 +10,32 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
+       Bad: https://datavizproject.com/data-type/convex-treemap/
+      -	Clarity and readability of data is low/hard to compare size of different segments accurately. Visualization is substantive only when the data is simple. If labels are adding to visualization with large number of segmentation, information will be hard to read and pros of having convex treemap will be lost.
+      - Aesthetically, this visualization can showcase the data easily but this is hard to distinguish relationships with more complex data. Data precision might be low within the visualization especially when efficient space usage is prioritized.
+      - In the context of visualizing representing data relating to location, this is a great visualization to leverage for maps as the size of the segments are representative of the actual size of the location. Readability for this is great but this cannot be applied for varied range of datasets.
 
-
-
-
-
-
+      Good: https://datavizproject.com/data-type/stacked-bar-chart/
+      - This visualization is effective in showing the total and contribution of each segment within a category. This is visually aesthetic, substantive and perceptual. Bar charts are familiar with most people, readability is high.
+      - Comparison of parts and totals: where bar graphs showcases only total value, this visualization shows contributing parts and can reveal trends over time if used to display sequential data.
+      - Data representation is high and composition is visualized well in terms of identifying proportions of different segments. Data is clearly organized.
+      - Aesthetically, visually appealing and straightforward. This will make it easier for users to understand the data distribution.
 
       ```
     - How could this data visualization have been improved?  
       ```
-      Your answer...
+      Bad:
+      - Incorporating gridlines or labels - this will help users make more accurate comparisons that will make comprehending relative size of each component.
+      - Interactive features that will allow for drill down options - that way hierarchical levels can be represented and clarity can be improved
+      - Colour coding/pattern addition for segmentation - allow for data/segment differentiation to improve aesthetic but also readability.
+      - Legends and annotations that explains the data segmentation - this is to help with data interpretation
+      - Balancing aesthetic with improved clarity - convex treemaps can be a good visualization when hierarchical data is in play with importance of aesthetic
 
-
-
-
-
-
+      Good:
+      - Leverage colours that are more distinctive and assist with differentiation for each segment. This will help identifying the contributing segments better.
+      - Label and legends that can help users quickly understand the values represented by each segments. Place data labels near the segments without cluttering the readability
+      - Interactive feature that can showcase additional data when users hover over or click the segments. This will help users explore data more in depth without cluttering or reducing readability of the visualization
+      - Simplify if possible with broader segmentation without sacrificing the data you are trying to showcase. 
       
       ```
 - Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
