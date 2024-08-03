@@ -8,6 +8,16 @@
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) whether or not you think this data visualization is accessible, reproducible, and equitable. 
         ```
         Your answer...
+        Bad: https://datavizproject.com/data-type/convex-treemap/
+        - Accessibility: to be accessible, convex treemap will need to be colourblind-friendly palettes, clear labels and adequate contrasts. Colours used in this convex treemap is accessible
+        - Reproducible: convex treemap can be reproducible if the visualization process which includes algorithms and data is well documented and accessible. Without it, it will be hard to reproduce
+        -Equitable: convex treemap can potentially be equitable if they are designed to fairly represent hierarchical data and do not introduce bias or distortion
+
+        Good: Good: https://datavizproject.com/data-type/stacked-bar-chart/
+        - Accessibility: stacked bar chart show different segments contributing to the total. Colourblind-friendly palettes to help distinguish different segments is important. Colours used in this stacked bar chart is accessible, however, the distinction between segments are blurry. Label needs to be clearly outlined but this stacked bar chart does not have any labels.
+        Reproducible: this chart is reproducible as stacked bar charts require simple algorithm typically and many tools support this visualization.
+        Equitable: stacked bar charts are equitable as this highlights trends that might not be visible with other chart types. Each segment is proportionally displayed
+        
 
 
 
@@ -15,8 +25,19 @@
     - How could this data visualization have been improved (in terms of accessibility, reproducibility, equity)?  
         ```
         Your answer...
+        Bad:
+        - Using colourblind-friendly palettes with contrast and legible texts/background.
+        - Adding interactive elements to view information
+        - Keyboard navigation/screen reader compatibility for people using assistive technology
+        - Detail documentation of data process to make the treemap reproducible with open source code
+        - Balanced representation to not distort or obscure important data and avoid misleading visuals
 
-
+        Good:
+        - Visual distinction between different segments and addition of labels
+        - Interactive features to zoom/move around the visual
+        - Even though stacked bar charts are reproducible, it is a good idea to document data structures to assist with reproducibility
+        - Avoid overloading information and mindful of how much information is presented to not clutter visualization
+        
 
         ```
 
