@@ -8,13 +8,32 @@
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) whether or not you think this data visualization is accessible, reproducible, and equitable. 
         ```
         Your answer...
+        Bad: https://datavizproject.com/data-type/convex-treemap/
+        Accessibility: Convex Treemap needs to leverage colourblind-friendly palettes to be accessible. Based on colour palettes used in this treemap, this seems to be accessible, however, figures are close to one another so more distinctive colours will be helpful. Additionally, labels can help with accessibility
+        Reproducibility: this is reproducibile but visualization process will need to be well documneted and accessible in order for data to be leveraged for reproducible outcome
+        Equitable: data representation can potentially obscure data and carefully designed to showcase hiearchy and not to distort data
 
+        Good:
+        Accessibility: stacked bar chart shows different segments in one bar. This chart contains colour palettes that are accessible but will require more distinctive colours to determine different segments. Additionally, this chart does not have labels. Label will help with accessibility
+        Reproducibility: stacked bar chart is simple to reproduce and many tools support creation of stacked bar charts
+        Equitable: this is comprehensive view of the data and trends and typically fairly represented 
 
 
         ```
     - How could this data visualization have been improved (in terms of accessibility, reproducibility, equity)?  
         ```
         Your answer...
+        Bad:
+        - Usualing colourblind-friendly palettes to showcase segments with contrast and legible labels.
+        - Interactive elements for users with keyboard navigation and screen reader compatibility for users with assistive technologies
+        - Well-documented process and open source code to reproduce
+        - Balanced representation and avoid misleading values to ensure equitable representation
+
+        Good:
+        - Leverage colourblind-friendly palettes to distinguish between segments more clearly.
+        - Interactive features to zoom in/ deep dive on each segments
+        - Stacked bar charts are easily reproducible but documentation and clear data structure will assist
+        - Avoid overloading information in order not to clutter the chart and obscure important details
 
 
 
