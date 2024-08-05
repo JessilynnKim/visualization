@@ -7,7 +7,7 @@
 - Choose a dataset of interest from the [City of Toronto’s Open Data Portal](https://www.toronto.ca/city-government/data-research-maps/open-data/) or [Ontario’s Open Data Catalogue](https://data.ontario.ca/). 
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
-Python 
+###### Python
     > What software did you use to create your data visualization?
     Python: https://vscode.dev/github/JessilynnKim/visualization/blob/assignment-4/02_activities/assignments/Assignment_4_Python.ipynb
     > or refer to Assignment_4_Python
@@ -42,25 +42,23 @@ Python
     Added data column %Remaining 
     only including data less than 50% of progression %
 
-Power BI
+###### Power BI
     > What software did you use to create your data visualization?
     Power BI
     https://vscode.dev/github/JessilynnKim/visualization/blob/assignment-4/02_activities/assignments/Assignment%204%20-%20PowerBI%20Visualization.png
     **could not make the Power BI visualization public
     or refer to file name: Assignment 4 - PowerBI Visualization 
-
+    
     > Who is your intended audience? 
-    Municipal employees relating to housing policy makers/ city planners 
+    Municipal employees relating to housing policy makers/ city planners     
     
     > What information or message are you trying to convey with your visualization? 
     To outline for each municipal exclude ones without target on their progress to date in 2024 against their 2024 total target 
-
     
     > What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
     Substantive: visualization excluded grouped municipal without target. This chart showcases the proportion of target vs. progress 
     Perceptual: two different colours have been leveraged to distinguish between two different segments with labels added 
     Aesthetic: data is showcased in simple manner but this is a bit clutter due to number of municipals part of the data set. 
-
     
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
     This data is potentially reproducible as visualization labels such as x, y and title is straightforward in terms of inclusion and exclusion datasets for this visualization. Colour scheme was customized to ensure accessibility but this can be reproduced as well 
@@ -69,11 +67,11 @@ Power BI
     Using colourblind-friendly colours and two very distinct colours used for each segment. Zoom Slider was added to the visualization to zoom into various Municipalities. Toronto is one of the outlier data with very high 2024 target which makes it hard to read majority of Municipality data. This feature will help with readability of this visualization. Data label has been added but again, similar to overall visualization, zoom slider will assist with viewing this data. 
     
     > Who are the individuals and communities who might be impacted by your visualization?  
-    Municipal officals and planner as well as community members. Housing issues continues and lack of supply or low progression in house vs. target may help each municipla assess the current state to improve for remaining 2024
+    Municipal officals and planner as well as community members. Housing issues continues and lack of supply or low progression in house vs. target may help each municipla assess the current state to improve for remaining 2024 
     
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
     Similar to python, 10-year target was not included part of visualization as it's unclear when 10 year starts and ends. Similarly, 2022 to date progression was excluded as I wanted to showcase current state of housing progress. I wanted to visualize in comparison between current progress and the remaining of the total 2024 target for each municiplal to go. 
-
+    
     > What ‘underwater labour’ contributed to your final data visualization product?
     Same data cleaning done for this visualization. Updated column names and added remaining % column 
 
