@@ -9,10 +9,10 @@
 - For each visualization, describe and justify: 
 Python 
     > What software did you use to create your data visualization?
-    Python: 
+    Python: https://vscode.dev/github/JessilynnKim/visualization/blob/assignment-4/02_activities/assignments/Assignment_4_Python.ipynb
 
     > Who is your intended audience? 
-    Business Analysts and housing policy makers to understand the projected supply 
+    Business Analysts and housing policy makers to understand progress of the housing against target in 2024
     
     > What information or message are you trying to convey with your visualization? 
     To understand and visualize Municipalities with less than 50% of progress % in housing supply between January – April 2024  
@@ -20,13 +20,13 @@ Python
     > What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
     Substantive: observing current progression trend for 2024 housing target against total built which is 2024 Progression % 
     Perceptual: bar chart that will showcase the Municipalities less than 50% to their 2024 target 
-    Aesthetic: using line graph to depict the data and progression by Municipality 
+    Aesthetic: using bar chart to depict the data and progression by Municipality 
     
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
-    Documenting and adding comments to Python codes to be able to reproduce stacked bar charts to represent dataset
+    Documenting and adding comments to Python codes to be able to reproduce bar charts to represent dataset
     
     > How did you ensure that your data visualization is accessible?  
-    Using colourblind-friendly colour and adding data label for % progression to read/undestand the visualization 
+    Using colourblind-friendly colour and adding label to the chart to read/undestand the visualization 
     
     > Who are the individuals and communities who might be impacted by your visualization?  
     City planners, policy makers, analysts and housing developers for each Municipality 
@@ -43,21 +43,33 @@ Python
 
 Power BI
     > What software did you use to create your data visualization?
+    Power BI
+    
 
     > Who is your intended audience? 
+    Municipal employees relating to housing policy makers/ city planners 
     
     > What information or message are you trying to convey with your visualization? 
+    To outline for each municipal exclude ones without target on their progress to date in 2024 against their 2024 total target 
+
     
     > What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
+    Substantive: visualization excluded grouped municipal without target. This chart showcases the proportion of target vs. progress 
+    Perceptual: two different colours have been leveraged to distinguish between two different segments with labels added 
+    Aesthetic: data is showcased in simple manner but this is a bit clutter due to number of municipals part of the data set. 
+
     
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+    This data is potentially reproducible as visualization labels such as x, y and title is straightforward in terms of inclusion and exclusion datasets for this visualization. Colour scheme was customized to ensure accessibility but this can be reproduced as well 
     
     > How did you ensure that your data visualization is accessible?  
+    Using colourblind-friendly colours and two very distinct colours used for each segment. Zoom Slider was added to the visualization to zoom into various Municipalities. Toronto is one of the outlier data with very high 2024 target which makes it hard to read majority of Municipality data. This feature will help with readability of this visualization. Data label has been added but again, similar to overall visualization, zoom slider will assist with viewing this data. 
     
     > Who are the individuals and communities who might be impacted by your visualization?  
+    Municipal officals and planner as well as community members. Housing issues continues and lack of supply or low progression in house vs. target may help each municipla assess the current state to improve for remaining 2024
     
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
-    
+    Similar to python, 10-year target was not included part of visualization as it's unclear when 10 year starts and ends. Similarly, 2022 to date progression was excluded as I wanted to showcase current state. 
     > What ‘underwater labour’ contributed to your final data visualization product?
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
