@@ -37,7 +37,8 @@ Python
     
     > What ‘underwater labour’ contributed to your final data visualization product?
     Reviewing the datasets from Ontario's Open Data Catalogue to understand raw data before choosing the dataset. Excluding two datasets to hone in on visualization 
-    Updating column name for 2024 housing progress to date for simplification 
+    Updating column name for more ease of usage
+    Added data column Remaining 
 
 Power BI
     > What software did you use to create your data visualization?
