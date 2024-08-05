@@ -7,6 +7,39 @@
 - Choose a dataset of interest from the [City of Toronto’s Open Data Portal](https://www.toronto.ca/city-government/data-research-maps/open-data/) or [Ontario’s Open Data Catalogue](https://data.ontario.ca/). 
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
+Python 
+    > What software did you use to create your data visualization?
+    Python: 
+
+    > Who is your intended audience? 
+    Business Analysts and housing policy makers to understand the projected supply 
+    
+    > What information or message are you trying to convey with your visualization? 
+    To understand each Municipality's 2024 target, progression to date and progress % in housing supply between January – April 2024  
+    
+    > What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
+    Substantive: observing current progression trend for 2024 housing target against total built which is 2024 Progression % 
+    Perceptual: differentiating line colours for 2024 housing target and total build progress 
+    Aesthetic: using line graph to depict the data and progression by Municipality 
+    
+    > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+    Documenting and adding comments to Python codes to be able to reproduce stacked bar charts to represent dataset
+    
+    > How did you ensure that your data visualization is accessible?  
+    Using contrasting colours for different segments and adding data label for % progression to read/undestand the visualization 
+    
+    > Who are the individuals and communities who might be impacted by your visualization?  
+    City planners, policy makers, analysts and housing developers for each Municipality 
+    
+    > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+    10- year housing target was excluded as from this dataset, it is unclear when the 10-year target starts and ends
+    Total housing progress since 2022 was excluded from this dataset as to focus on the data visualization 
+    
+    > What ‘underwater labour’ contributed to your final data visualization product?
+    Reviewing the datasets from Ontario's Open Data Catalogue to understand raw data before choosing the dataset. Excluding two datasets to hone in on visualization 
+    Updating column name for 2024 housing progress to date for simplification 
+
+Power BI
     > What software did you use to create your data visualization?
 
     > Who is your intended audience? 
@@ -24,7 +57,6 @@
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
     
     > What ‘underwater labour’ contributed to your final data visualization product?
-
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
  
