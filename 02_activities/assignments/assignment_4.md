@@ -44,7 +44,8 @@ Python
 Power BI
     > What software did you use to create your data visualization?
     Power BI
-    
+    https://vscode.dev/github/JessilynnKim/visualization/blob/assignment-4/02_activities/assignments/Assignment%204%20-%20PowerBI%20Visualization.png
+    **could not make the Power BI visualization public
 
     > Who is your intended audience? 
     Municipal employees relating to housing policy makers/ city planners 
@@ -69,8 +70,12 @@ Power BI
     Municipal officals and planner as well as community members. Housing issues continues and lack of supply or low progression in house vs. target may help each municipla assess the current state to improve for remaining 2024
     
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
-    Similar to python, 10-year target was not included part of visualization as it's unclear when 10 year starts and ends. Similarly, 2022 to date progression was excluded as I wanted to showcase current state. 
+    Similar to python, 10-year target was not included part of visualization as it's unclear when 10 year starts and ends. Similarly, 2022 to date progression was excluded as I wanted to showcase current state of housing progress. I wanted to visualize in comparison between current progress and the remaining of the total 2024 target for each municiplal to go. 
+
     > What ‘underwater labour’ contributed to your final data visualization product?
+    Same data cleaning done for this visualization. Updated column names and added remaining % column 
+
+
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
  
