@@ -10,6 +10,7 @@
 Python 
     > What software did you use to create your data visualization?
     Python: https://vscode.dev/github/JessilynnKim/visualization/blob/assignment-4/02_activities/assignments/Assignment_4_Python.ipynb
+    > or refer to Assignment_4_Python
 
     > Who is your intended audience? 
     Business Analysts and housing policy makers to understand progress of the housing against target in 2024
@@ -46,6 +47,7 @@ Power BI
     Power BI
     https://vscode.dev/github/JessilynnKim/visualization/blob/assignment-4/02_activities/assignments/Assignment%204%20-%20PowerBI%20Visualization.png
     **could not make the Power BI visualization public
+    or refer to file name: Assignment 4 - PowerBI Visualization 
 
     > Who is your intended audience? 
     Municipal employees relating to housing policy makers/ city planners 
