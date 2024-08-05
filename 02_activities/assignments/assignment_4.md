@@ -15,18 +15,18 @@ Python
     Business Analysts and housing policy makers to understand the projected supply 
     
     > What information or message are you trying to convey with your visualization? 
-    To understand each Municipality's 2024 target, progression to date and progress % in housing supply between January – April 2024  
+    To understand and visualize Municipalities with less than 50% of progress % in housing supply between January – April 2024  
     
     > What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
     Substantive: observing current progression trend for 2024 housing target against total built which is 2024 Progression % 
-    Perceptual: differentiating line colours for 2024 housing target and total build progress 
+    Perceptual: bar chart that will showcase the Municipalities less than 50% to their 2024 target 
     Aesthetic: using line graph to depict the data and progression by Municipality 
     
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
     Documenting and adding comments to Python codes to be able to reproduce stacked bar charts to represent dataset
     
     > How did you ensure that your data visualization is accessible?  
-    Using contrasting colours for different segments and adding data label for % progression to read/undestand the visualization 
+    Using colourblind-friendly colour and adding data label for % progression to read/undestand the visualization 
     
     > Who are the individuals and communities who might be impacted by your visualization?  
     City planners, policy makers, analysts and housing developers for each Municipality 
@@ -38,7 +38,8 @@ Python
     > What ‘underwater labour’ contributed to your final data visualization product?
     Reviewing the datasets from Ontario's Open Data Catalogue to understand raw data before choosing the dataset. Excluding two datasets to hone in on visualization 
     Updating column name for more ease of usage
-    Added data column Remaining 
+    Added data column %Remaining 
+    only including data less than 50% of progression %
 
 Power BI
     > What software did you use to create your data visualization?
